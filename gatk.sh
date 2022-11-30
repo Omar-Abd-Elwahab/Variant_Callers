@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #first variant calling
 $gatk --java-options "-Xmx200G" HaplotypeCaller --native-pair-hmm-threads 16 \
 	-R ref.fa \
